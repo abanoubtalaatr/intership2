@@ -1,0 +1,558 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  margin-top: 60px; }
+
+* {
+  box-sizing: border-box; }
+
+.cover {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 777777;
+  visibility: hidden; }
+
+.gain_container {
+  clear: both;
+  width: 90%;
+  margin: auto;
+  overflow: hidden; }
+
+.unlist_style {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+.gain_navbar {
+  background: #117a8b;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 555555; }
+  .gain_navbar .gain_brand {
+    float: left;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 100; }
+    .gain_navbar .gain_brand h4 {
+      display: inline; }
+      .gain_navbar .gain_brand h4 a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #e5edf1;
+        padding-top: 15px; }
+  .gain_navbar .gain_aims {
+    float: right; }
+    .gain_navbar .gain_aims li {
+      float: left;
+      margin: 0px 20px;
+      font-size: 20px;
+      font-weight: 100;
+      text-transform: capitalize;
+      padding: 15px; }
+      .gain_navbar .gain_aims li a {
+        text-decoration: none;
+        color: #e5edf1; }
+      .gain_navbar .gain_aims li:last-of-type {
+        background: #403030;
+        color: yellow;
+        cursor: pointer; }
+
+.form {
+  width: 30%;
+  margin-left: 35%;
+  position: absolute;
+  top: 130px;
+  z-index: 22;
+  display: none; }
+  .form .contain-inst-form {
+    margin: auto;
+    padding: 10px 8px;
+    background: black;
+    border-radius: 3px; }
+  .form .instruction {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    text-transform: capitalize;
+    background: #521818;
+    padding: 10px 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 4px; }
+    .form .instruction p {
+      margin: 0px;
+      padding: 0px; }
+  .form .contain-form {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background: black; }
+    .form .contain-form .contain-input {
+      padding: 5px;
+      margin: auto;
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      background: #f4f1f7;
+      color: white;
+      overflow: hidden; }
+      .form .contain-form .contain-input input {
+        width: 100%;
+        padding: 10px 5px;
+        border: none;
+        font-size: 20px; }
+    .form .contain-form .contain-select {
+      padding: 10px 2px;
+      font-size: 18px;
+      text-transform: capitalize;
+      border: none;
+      background: #f4f1f7;
+      margin-bottom: 10px;
+      position: relative; }
+      .form .contain-form .contain-select label {
+        display: inline-block;
+        width: 50%;
+        margin-left: 5px; }
+      .form .contain-form .contain-select select {
+        position: absolute;
+        font-weight: 100;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        right: 5px;
+        top: 2px; }
+    .form .contain-form .contain-button button {
+      border: none;
+      text-transform: capitalize;
+      font-size: 20px;
+      font-weight: 100;
+      margin: auto;
+      padding: 8px 25px;
+      border-radius: 4px;
+      background: teal;
+      color: yellow;
+      margin-left: 35%; }
+
+.gain_slider {
+  background: green;
+  height: 400px;
+  overflow: hidden; }
+
+.staticties {
+  background: azure;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px; }
+  .staticties h2 {
+    text-transform: capitalize;
+    padding: 10px;
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
+    text-transform: capitalize; }
+  .staticties .info_teams {
+    border: 1px dotted;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: start; }
+    .staticties .info_teams h2 {
+      text-align: center;
+      text-transform: capitalize;
+      border: none; }
+  .staticties .info_project {
+    border: 1px dotted;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: start; }
+    .staticties .info_project h2 {
+      text-transform: capitalize;
+      border: none; }
+    .staticties .info_project .name_of_project h5 {
+      font-size: 16px;
+      padding-left: 15px;
+      margin: 0px;
+      padding: 10px 15px;
+      border-bottom: 1px solid; }
+      .staticties .info_project .name_of_project h5:last-of-type {
+        border-bottom: none; }
+      .staticties .info_project .name_of_project h5 strong {
+        text-transform: capitalize;
+        font-weight: bolder;
+        font-size: 18px; }
+
+.posts {
+  background: #192734;
+  padding-top: 20px; }
+  .posts .row {
+    margin: 0px;
+    margin-bottom: 15px; }
+    .posts .row .item {
+      width: 45%;
+      padding: 10px;
+      float: left;
+      background: white; }
+      .posts .row .item:first-of-type {
+        margin-right: 5%; }
+      .posts .row .item:last-of-type {
+        margin-left: 5%; }
+      .posts .row .item h3 {
+        text-transform: capitalize; }
+      .posts .row .item p {
+        padding: 15px; }
+
+.left_bar {
+  background: black;
+  width: 200px;
+  color: white;
+  padding-left: 15px;
+  text-transform: capitalize;
+  font-size: 19px;
+  padding-top: 1px;
+  margin-top: 1px;
+  height: 600px;
+  display: inline-block;
+  float: left; }
+  .left_bar h3 a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white; }
+  .left_bar .contain_context ul li h4 {
+    margin: 10px 0px; }
+  .left_bar .contain_context ul li ul {
+    padding-left: 10px; }
+    .left_bar .contain_context ul li ul li {
+      padding-top: 3px;
+      cursor: pointer; }
+      .left_bar .contain_context ul li ul li a {
+        text-decoration: none;
+        color: white; }
+
+.add_post {
+  width: calc(100% - 200px);
+  float: left;
+  margin-top: 40px; }
+  .add_post .contain_info {
+    padding-left: 20px; }
+    .add_post .contain_info h3 {
+      text-transform: capitalize;
+      border-bottom: 1px dotted;
+      padding-bottom: 10px; }
+    .add_post .contain_info form .alert-success {
+      width: 600px;
+      font-size: 20px;
+      text-transform: capitalize;
+      display: none; }
+    .add_post .contain_info form textarea {
+      display: block;
+      width: 600px;
+      height: 200px;
+      resize: none;
+      margin-bottom: 10px;
+      line-height: 1.6;
+      padding-top: 5px;
+      padding-left: 5px;
+      border-radius: 5px;
+      background: white;
+      font-size: 20px;
+      font-weight: bolder;
+      font-weight: 100; }
+      .add_post .contain_info form textarea:first-of-type {
+        height: 70px;
+        border-right: none;
+        border: 1px solid black;
+        margin-bottom: 40px; }
+    .add_post .contain_info form button {
+      border: none;
+      padding: 10px 25px;
+      border-radius: 2px;
+      font-size: 18px;
+      text-transform: capitalize;
+      cursor: pointer;
+      background: midnightblue;
+      color: white; }
+
+.contain_form_log_in {
+  width: 30%;
+  margin: auto;
+  margin-top: 100px; }
+  .contain_form_log_in .gain_container {
+    width: 100%;
+    margin: auto;
+    background: black;
+    color: white;
+    border-radius: 4px; }
+  .contain_form_log_in h3 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 25px; }
+  .contain_form_log_in form {
+    margin: auto;
+    padding: 10px;
+    width: 100%; }
+    .contain_form_log_in form input {
+      display: block;
+      padding: 10px;
+      border: none;
+      background: white;
+      margin: 10px 0px;
+      width: 100%;
+      border-radius: 3px; }
+    .contain_form_log_in form button {
+      border: none;
+      padding: 10px 25px;
+      background: azure;
+      color: black;
+      font-size: 18px;
+      text-transform: capitalize;
+      margin-left: 35%;
+      border-radius: 3px;
+      cursor: pointer; }
+
+.project_add form {
+  width: 600px; }
+  .project_add form .contian_la_in {
+    width: 100%;
+    border-bottom: 1px dotted;
+    overflow: hidden;
+    padding-bottom: 20px; }
+    .project_add form .contian_la_in label {
+      display: inline-block;
+      width: 30%;
+      font-size: 20px; }
+    .project_add form .contian_la_in input {
+      display: inline-block;
+      border: none;
+      width: 69%;
+      padding: 5px;
+      font-size: 20px;
+      border-radius: 3px;
+      background: green;
+      color: white; }
+  .project_add form .label_text {
+    margin-top: 40px;
+    overflow: hidden; }
+    .project_add form .label_text label {
+      font-size: 20px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      display: block; }
+    .project_add form .label_text textarea {
+      width: 100%; }
+
+.profile .gain_aims ul li:last-of-type {
+  background: none;
+  color: white; }
+
+.contain_profile {
+  background: lightblue;
+  padding-top: 10px;
+  height: 614px; }
+  .contain_profile .gain_container > div {
+    padding: 0px 10px;
+    width: 17%;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    background: white; }
+    .contain_profile .gain_container > div h3 {
+      text-transform: capitalize; }
+  .contain_profile .gain_container .your_friends {
+    margin-right: 2%; }
+    .contain_profile .gain_container .your_friends h3 {
+      font-size: 22px; }
+    .contain_profile .gain_container .your_friends h4 a {
+      text-decoration: none;
+      text-transform: capitalize; }
+  .contain_profile .gain_container .member_of_team {
+    text-align: center;
+    text-transform: capitalize;
+    background: white;
+    margin-right: 1%; }
+    .contain_profile .gain_container .member_of_team h3 {
+      font-size: 22px; }
+    .contain_profile .gain_container .member_of_team h4 a {
+      text-decoration: none; }
+  .contain_profile .gain_container .tasks {
+    margin-right: 1%;
+    margin-left: 1%;
+    text-transform: capitalize; }
+    .contain_profile .gain_container .tasks h3 {
+      font-size: 22px; }
+  .contain_profile .gain_container .your_projects {
+    margin-right: 1%;
+    margin-left: 1%;
+    text-transform: capitalize; }
+    .contain_profile .gain_container .your_projects h3 {
+      font-size: 22px; }
+  .contain_profile .gain_container .list_of_memebers {
+    margin-right: 2%;
+    width: 22%;
+    background: white;
+    overflow-y: scroll;
+    height: 600px; }
+    .contain_profile .gain_container .list_of_memebers > h3 {
+      font-size: 22px; }
+    .contain_profile .gain_container .list_of_memebers .info_member {
+      text-align: start;
+      border-bottom: 1px dotted;
+      position: relative;
+      margin-left: 5px; }
+      .contain_profile .gain_container .list_of_memebers .info_member h3 {
+        display: inline-block;
+        margin-right: 2px;
+        width: max-width; }
+        .contain_profile .gain_container .list_of_memebers .info_member h3 a {
+          text-decoration: none; }
+      .contain_profile .gain_container .list_of_memebers .info_member button {
+        border: none;
+        padding: 4px 14px;
+        border-radius: 3px;
+        text-transform: capitalize;
+        color: #3838ff;
+        position: absolute;
+        right: 6px;
+        top: 19px; }
+
+.front_contact {
+  background: #232a34;
+  overflow: hidden;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 80px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  top: 60px;
+  left: 0px; }
+  .front_contact .contact_form {
+    text-align: center; }
+    .front_contact .contact_form h2 {
+      font-size: 30px;
+      text-transform: capitalize;
+      margin-bottom: 25px; }
+    .front_contact .contact_form p {
+      font-size: 22px;
+      text-transform: capitalize;
+      margin-bottom: 40px; }
+    .front_contact .contact_form .form-contact {
+      width: 80%;
+      margin: auto; }
+      .front_contact .contact_form .form-contact form .item {
+        width: 30%;
+        float: left;
+        margin-right: 5%; }
+        .front_contact .contact_form .form-contact form .item input, .front_contact .contact_form .form-contact form .item label {
+          display: block;
+          text-align: start;
+          padding: 5px 0px;
+          width: 100%;
+          font-size: 20px; }
+        .front_contact .contact_form .form-contact form .item label {
+          font-size: 20px;
+          text-transform: capitalize; }
+        .front_contact .contact_form .form-contact form .item input {
+          padding-left: 10px; }
+      .front_contact .contact_form .form-contact form .last {
+        margin-right: 0px; }
+      .front_contact .contact_form .form-contact form textarea {
+        width: 100%;
+        margin-top: 30px;
+        height: 200px;
+        padding-left: 10px;
+        text-transform: capitalize; }
+      .front_contact .contact_form .form-contact form .button {
+        margin-top: 20px;
+        padding: 5px; }
+        .front_contact .contact_form .form-contact form .button button {
+          width: 100px; }
+
+.front_about {
+  text-align: center;
+  background: #232a34;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 60px;
+  color: white; }
+  .front_about h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 40px 0px; }
+  .front_about p {
+    font-size: 23px; }
+    .front_about p::first-letter {
+      font-size: 30px;
+      color: red; }
+
+@media (min-width: 768px) {
+  .gain_navbar .gain_container {
+    width: 100%; }
+    .gain_navbar .gain_container .gain_aims ul li {
+      margin: 0px 10px;
+      padding: 15px; }
+
+  .staticties h2 {
+    width: 100%; }
+  .staticties .gain_container .info_teams {
+    width: 100%; }
+  .staticties .gain_container .info_project {
+    width: 100%; } }
+@media (min-width: 576px) {
+  .gain_navbar .gain_container {
+    width: 100%; }
+    .gain_navbar .gain_container .gain_aims ul li {
+      margin: 0px 15px;
+      padding: 15px 5px; }
+
+  .staticties h2 {
+    width: 100%; }
+  .staticties .gain_container .info_teams {
+    width: 100%; }
+  .staticties .gain_container .info_project {
+    width: 100%; } }
+@media (min-width: 992px) {
+  .gain_navbar .gain_container {
+    width: 100%; }
+    .gain_navbar .gain_container .gain_aims ul li {
+      margin: 0px 15px;
+      padding: 15px; }
+
+  .staticties h2 {
+    width: 70%; }
+  .staticties .gain_container .info_teams {
+    width: 70%; }
+  .staticties .gain_container .info_project {
+    width: 70%; } }
+@media (min-width: 1200px) {
+  .gain_navbar .gain_container {
+    width: 90%; }
+    .gain_navbar .gain_container .gain_aims ul li {
+      margin: 0px 20px;
+      padding: 15px; }
+
+  .staticties h2 {
+    width: 50%; }
+  .staticties .gain_container .info_teams {
+    width: 50%; }
+  .staticties .gain_container .info_project {
+    width: 50%; } }
+
+/*# sourceMappingURL=main_style_ar.css.map */

@@ -1,0 +1,816 @@
+body{
+	margin: 0px;
+	padding:0px;
+}
+html{
+  margin-top:60px;
+}
+*{
+	box-sizing: border-box;
+}
+
+.cover{
+  background:rgba(0,0,0,.3);
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom:0px;
+  z-index: 777777;
+  visibility: hidden;
+}
+.gain_container{
+	   clear: both;
+	   width: 90%;
+	   margin: auto;
+	   overflow: hidden;    
+	}
+$main-color:#e5edf1;
+.unlist_style{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+// style the navbar 
+.gain_navbar{
+	 background:#117a8b;
+   position:fixed;
+   top:0px;
+   right: 0px;
+   left: 0px;
+   z-index: 555555;
+	
+	.gain_brand{
+		float: left;
+		padding-top:15px;
+		font-size: 20px;
+	    font-weight: 100;
+		h4{
+			display: inline;
+
+			a{
+				text-decoration: none;
+				text-transform: capitalize;
+				color: $main-color;
+				padding-top: 15px;
+			}
+		}
+	}	
+	.gain_aims{
+		float: right;
+		li{
+			float: left;
+			margin: 0px 20px;
+			font-size: 20px;
+			font-weight: 100;
+			text-transform: capitalize;
+            padding:15px;
+         
+            a{
+               text-decoration: none;
+               color: $main-color;
+            }
+            &:last-of-type{
+            	background:#403030;
+                color: yellow;
+                cursor: pointer;	
+            }
+
+            
+		}// end gain_aims
+	}// End gain_container
+}// End gain_navbar
+// End the navbar class
+
+//class form style 
+.form{
+    width: 30%;
+    margin-left: 35%;
+    position: absolute;
+    top: 130px;
+    z-index: 22;
+	  display: none;
+	.contain-inst-form{
+        margin: auto;
+        padding:10px 8px;
+        background:black;
+        border-radius:3px;
+	}
+	.instruction{
+        	color: white;
+        	font-size:18px;
+        	width: 100%;
+        	margin:auto;
+        	color: white;
+        	text-transform: capitalize;
+        	background:#521818;
+        	padding:10px 8px;
+        	margin-bottom: 20px;
+        	margin-top:10px;
+        	border-radius:4px;
+
+        	p{
+        		margin:0px;
+        		padding:0px;
+        	}
+        }
+	.contain-form{
+		width: 100%;
+        margin: auto;
+        overflow: hidden;
+        background:black;
+
+		.contain-input{
+			padding:5px;
+			margin: auto;
+			width: 100%;
+			margin-bottom:10px;
+			border-radius:3px;
+			background:#f4f1f7;
+			color: white;
+			overflow: hidden;
+			input{
+				width: 100%;
+				padding:10px 5px;
+				border:none;
+				font-size: 20px;
+			}
+		}
+		.contain-select{
+            padding: 10px 2px;
+		    font-size: 18px;
+		    text-transform: capitalize;
+		    border: none;
+		    background: #f4f1f7;
+		    margin-bottom: 10px;
+		    position:relative;
+		    label{
+		    	display: inline-block;
+			    width: 50%;
+			    margin-left: 5px;
+		    }
+		    select{
+		    	position:absolute;
+		    	font-weight: 100;
+			    padding: 5px 10px;
+			    border: none;
+			    border-radius: 4px;
+			    right: 5px;
+			    top: 2px;
+		    }
+		    
+		}
+		.contain-button{
+            
+		  button{
+			border: none;
+		    text-transform: capitalize;
+		    font-size: 20px;
+		    font-weight: 100;
+		    margin: auto;
+		    padding: 8px 25px;
+		    border-radius: 4px;
+		    background: teal;
+		    color: yellow;
+		    margin-left: 35%;
+		  }
+		}
+		
+	}// End class contain-form
+}// End class from 
+
+// End style of header.php
+
+//style news.php
+
+.gain_slider{
+	background:green;
+	height: 400px;
+	overflow: hidden;
+}
+
+.staticties{
+   background:azure;
+   text-align: center;
+   padding-bottom: 20px;
+   padding-top:10px;
+   	
+   h2{
+   	text-transform: capitalize;
+   	padding:10px;
+   	border:1px solid;
+   	width: 50%;
+   	margin:auto;
+   	text-transform: capitalize;
+
+   }
+   .info_teams{
+   
+   	 border:1px dotted ;
+   	 padding:5px;
+   	 width: 50%;
+   	 margin: auto;
+   	 border-radius:3px;
+   	 margin-top:10px;
+   	 text-align:start;
+
+     h2{
+     	text-align: center;
+     	text-transform: capitalize;
+     	border:none;
+     }
+   }
+   .info_project{
+	     border:1px dotted ;
+	   	 padding:5px;
+	   	 width: 50%;
+	   	 margin: auto;
+	   	 border-radius:3px;
+	   	 margin-top:10px;
+	   	 text-align:start;
+   	h2{
+   		text-transform: capitalize;
+   		border:none;
+   	}
+   	.name_of_project{
+   		h5{
+   			font-size: 16px;
+   			padding-left: 15px;
+   			margin: 0px;
+		    padding: 10px 15px;
+		    border-bottom: 1px solid;
+		    &:last-of-type{
+		    	border-bottom:none;
+		    }
+   			strong{
+   				text-transform: capitalize;
+   				font-weight: bolder;
+   				font-size:18px;
+   			}
+   		}
+   	}
+   }
+} //End staticties
+
+.posts{
+   background:#192734;
+   padding-top:20px;
+   .row{
+    margin:0px;
+    margin-bottom: 15px;
+    .item{
+      width: 45%;
+      padding:10px;
+      float: left;
+      background:white;
+      &:first-of-type{
+       margin-right: 5%;
+      }
+      &:last-of-type{
+        margin-left: 5%;
+      }
+      h3{
+        text-transform: capitalize;
+      }
+      p{
+        padding:15px;
+      }
+
+   }
+   }
+   
+}
+
+
+//End style news_view.php
+
+
+//start style admin_view.php in the controller
+.left_bar{
+	background:black;
+	width: 200px;
+	color:white;
+	padding-left: 15px;
+  text-transform: capitalize;
+  font-size: 19px;
+  padding-top: 1px;
+  margin-top: 1px;
+  height: 600px;
+  display: inline-block;
+  float: left;
+  h3{
+    a{
+      text-decoration: none;
+      text-transform: capitalize;
+      color: white;
+    }
+  }
+    .contain_context{
+    	ul {
+    		li{
+    			h4{
+                   margin:10px 0px;
+    			}
+    			ul{
+    				padding-left:10px;
+    				li{
+    					padding-top:3px;
+    					cursor: pointer;
+    					a{
+    						text-decoration: none;
+    						color: white;
+    					}
+    				}
+    			}
+    		}
+    	}
+    } // End the contain_context 
+}
+
+
+
+//Start style back_news.add.php
+.add_post{
+  width: calc(100% - 200px);
+  float: left;
+  margin-top: 40px;
+  .contain_info{
+  		padding-left:20px;
+       h3{
+      text-transform: capitalize;
+      border-bottom:1px dotted;
+      padding-bottom:10px;
+   }
+  	 form{
+      .alert-success{
+        width: 600px;
+        font-size: 20px;
+        text-transform: capitalize;
+        display: none;
+      }
+       textarea{
+       	 display: block;
+       	 width: 600px;
+       	 height: 200px;
+       	 resize: none;
+       	 margin-bottom:10px;
+       	 line-height: 1.6;
+       	 padding-top:5px;
+       	 padding-left:5px;
+       	 border-radius:5px;
+         background:white;
+       	 font-size: 20px;
+       	 font-weight: bolder;
+         font-weight: 100;
+          &:first-of-type{
+            height: 70px;
+            border-right:none;
+            border:1px solid black;
+            margin-bottom: 40px;
+            
+          }
+       }
+       button{
+       	border:none;
+       	padding:10px 25px;
+       	border-radius:2px;
+       	font-size: 18px;
+       	text-transform: capitalize;
+       	cursor: pointer;
+       	background: midnightblue;
+        color: white;
+
+       }
+     }
+  	
+  
+  }
+ 
+}// End add_post class
+
+
+
+//Start admin in the view
+.contain_form_log_in{
+	width: 30%;
+  margin:auto;
+  margin-top: 100px;
+
+    .gain_container{
+    	width: 100%;
+    	margin: auto;
+    	background:black;
+    	color: white;
+    	border-radius:4px;
+    }
+    h3{
+    	text-transform: capitalize;
+    	text-align: center;
+    	margin-bottom: 2px;
+      margin-top: 25px;
+    }
+	form{
+		
+		margin: auto;
+		
+		padding:10px;
+		width: 100%;
+		input{
+			display: block;
+			padding:10px;
+			border:none;
+			background:white;
+			margin: 10px 0px;
+			width: 100%;
+			border-radius:3px;
+		}
+		button{
+			border:none;
+			padding:10px 25px;
+			background:azure;
+			color: black;
+			font-size:18px;
+			text-transform: capitalize;
+			margin-left: 35%;
+			border-radius:3px;
+      cursor: pointer;
+		}
+	}
+}
+
+
+
+//Style admin_project_add_view.php
+.project_add{
+	form{
+		width: 600px;
+	  .contian_la_in{
+   	    width: 100%;
+   	    border-bottom:1px dotted ;
+   	    overflow: hidden;
+   	    padding-bottom:20px;
+
+   	    label{
+   	    	
+   	    	display: inline-block;
+   	    	width: 30%;
+   	    	
+   	    	font-size: 20px;
+   	    }
+   	    input{
+   	    	display: inline-block;
+   	    	border:none;
+   	    	width: 69%;
+   	    	padding:5px;
+   	    	font-size: 20px;
+   	    	border-radius:3px;
+   	    	background:green;
+   	    	color: white;
+   	    }
+      }
+      .label_text{
+      	margin-top:40px;
+       
+       
+        overflow: hidden;
+      	label{
+      		font-size: 20px;
+      		text-transform:capitalize;
+      		margin-bottom: 20px;
+      		display: block;
+      	}
+      	textarea{
+      		width: 100%;
+      	}
+      }
+	}
+ 
+}
+
+
+
+
+// Style profile_view.php page
+.profile{
+  .gain_aims{
+    ul{
+      li:last-of-type{
+        background:none;
+        color: white;
+      }
+    }
+  }
+}
+
+.contain_profile{
+  background:lightblue;
+  padding-top:10px;
+  height: 614px;
+  .gain_container{
+    &>div{
+    padding:0px 10px;
+    width: 17%;
+    float: left;
+    text-align: center;
+    border-radius:5px;
+    background:white;
+    h3{
+      text-transform: capitalize;
+    }
+  }
+  .your_friends{
+    margin-right: 2%;
+    h3{
+     font-size:22px;
+   }
+    h4{
+      a{
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+    }
+  }
+  .member_of_team{
+    text-align: center;
+    text-transform: capitalize;
+    background:white;
+    margin-right: 1%;
+    h3{
+     font-size:22px;
+   }
+    
+    h4{
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+  .tasks{
+    margin-right: 1%;
+    margin-left: 1%;
+    text-transform: capitalize;
+    h3{
+      font-size:22px;
+    }
+  }
+  .your_projects{
+    margin-right: 1%;
+    margin-left: 1%;
+    text-transform: capitalize;
+    h3{
+      font-size:22px;
+    }
+  }
+  .list_of_memebers{
+    margin-right: 2%;
+    width: 22%;
+   background:white;
+   overflow-y: scroll;
+   height: 600px;
+   &>h3{
+     font-size:22px;
+   }
+   .info_member{
+     text-align: start;
+     border-bottom:1px dotted;
+     position:relative;
+     margin-left: 5px;
+    h3{
+      display: inline-block;
+      margin-right: 2px;
+      width: max-width;
+      a{
+        text-decoration: none;
+      }
+    }
+    button{
+      border: none;
+      padding: 4px 14px;
+      border-radius: 3px;
+      text-transform: capitalize;
+      color: #3838ff;
+      position: absolute;
+     right: 6px;
+     top: 19px;
+    }
+   }
+  }
+
+}
+
+  }
+
+
+//style contact_view.php
+.front_contact{
+    background:#232a34;
+    overflow: hidden;
+    color: white;
+    padding-bottom:10px;
+    padding-top:80px;
+    position:absolute;
+    bottom:0px;
+    right: 0px;
+    top:60px;
+    left: 0px;
+  .contact_form{
+    text-align: center;
+    h2{
+      font-size: 30px;
+      text-transform: capitalize;
+      margin-bottom: 25px;
+    }
+    p{
+      font-size: 22px;
+      text-transform: capitalize;
+      margin-bottom: 40px;
+    }
+    .form-contact{
+      width: 80%;
+      margin:auto;
+      form{
+        .item{
+          width: 30%;
+          float: left;
+          margin-right: 5%;
+
+          input,label{
+            display: block;
+            text-align: start;
+            padding:5px 0px;
+            width: 100%;
+            font-size: 20px;
+
+          }
+           label{
+            font-size: 20px;
+            text-transform: capitalize;
+          }
+          input{
+            padding-left:10px;
+          }
+        }
+         .last{
+          margin-right: 0px;
+         }
+        textarea{
+          width: 100%;
+          margin-top: 30px;
+          height: 200px;
+          padding-left: 10px;
+          text-transform: capitalize;
+        }
+        .button{
+          margin-top:20px;
+          padding:5px;
+          button{
+            width: 100px;
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+// style about_view.php
+.front_about{
+  text-align: center;
+  background:#232a34;
+  position:absolute;
+  left: 0px;
+  right: 0px;
+  bottom:0px;
+  top: 60px;
+  color: white;
+  h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin:40px 0px;
+  }
+  p{
+    font-size: 23px;
+    &::first-letter{
+      font-size: 30px;
+      color: red;
+    }
+  }
+}
+
+
+@media (min-width: 768px){
+   // custom navbar in header.php
+  .gain_navbar{
+    .gain_container{
+        width: 100%;
+      .gain_aims ul li{
+        margin: 0px 10px;
+        padding:15px;
+      }
+    }
+    
+
+  } 
+   //custom news_view.php
+ .staticties{
+    h2{
+      width: 100%;
+    }
+    .gain_container{
+     .info_teams{
+      width:100%;
+     }
+     .info_project{
+      width: 100%;
+     }
+    }
+  }
+ 
+}// end media query
+
+
+@media (min-width: 576px){
+   // custom navbar in header.php
+  .gain_navbar{
+    .gain_container{
+      width: 100%;
+      .gain_aims ul li{
+        margin: 0px 15px;
+        padding:15px 5px;
+      }
+    }
+  }
+   //custom news_view.php
+ .staticties{
+    h2{
+      width: 100%;
+    }
+    .gain_container{
+     .info_teams{
+      width:100%;
+     }
+     .info_project{
+      width: 100%;
+     }
+    }
+  }
+
+}// end 576
+
+@media (min-width: 992px){
+  // custom navbar in header.php
+  .gain_navbar{
+    .gain_container{
+      width: 100%;
+      .gain_aims ul li{
+        margin: 0px 15px;
+        padding:15px;
+      }
+    }
+  }
+   //custom news_view.php
+  .staticties{
+    h2{
+      width: 70%;
+    }
+    .gain_container{
+     .info_teams{
+      width:70%;
+     }
+     .info_project{
+      width: 70%;
+     }
+    }
+  }
+
+}// end 992
+
+
+
+@media (min-width: 1200px){
+   // custom navbar in header.php
+  .gain_navbar{
+    .gain_container{
+      width: 90%;
+      .gain_aims ul li{
+        margin: 0px 20px;
+        padding:15px;
+      }
+    }
+  }
+  //custom news_view.php
+  .staticties{
+    h2{
+      width: 50%;
+    }
+    .gain_container{
+     .info_teams{
+      width:50%;
+     }
+     .info_project{
+      width: 50%;
+     }
+    }
+  }
+}// end 1200
